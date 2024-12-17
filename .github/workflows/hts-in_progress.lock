@@ -1,0 +1,5 @@
+Mirror in progress since Mon, 16 Dec 2024 11:03:19 .. please wait!
+winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wordpress.com/es/ -O1 "C:\Users\USUARIO\Downloads\ejercicio\wordpress" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=18984
+START=1734364999

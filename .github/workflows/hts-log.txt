@@ -1,0 +1,626 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 16 Dec 2024 11:03:19 at https://wordpress.com/es/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wordpress.com/es/ -O1 "C:\Users\USUARIO\Downloads\ejercicio\wordpress" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:08:51	Error: 	"Not Found" (404) at link https://wordpress.com/es/theme/beleco?ref=logged-out-homepage-lp (from https://wordpress.com/es/)
+11:10:33	Error: 	"Not Found" (404) at link https://wordpress.com/es/GET (from https://wordpress.com/es/)
+11:11:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/payment/
+11:11:38	Warning: 	File has moved from https://wordpress.com/es/support/payment/ to https://wordpress.com/es/support/pago/
+11:12:57	Warning: 	Moved Permanently for https://wordpress.com/es/domains/
+11:12:57	Warning: 	File has moved from https://wordpress.com/es/domains/ to https://wordpress.com/es/dominios/
+11:13:01	Warning: 	Moved Permanently for https://wordpress.com/es/go/tutorials/what-is-a-domain-name/
+11:13:01	Warning: 	File has moved from https://wordpress.com/es/go/tutorials/what-is-a-domain-name/ to https://wordpress.com/es/go/tutoriales/que-es-un-nombre-de-dominio/
+11:13:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/monetize-your-site/
+11:13:28	Warning: 	File has moved from https://wordpress.com/es/support/monetize-your-site/ to https://wordpress.com/es/support/monetiza-tu-sitio/
+11:13:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/
+11:13:28	Warning: 	File has moved from https://wordpress.com/es/support/import/ to https://wordpress.com/es/support/importar/
+11:14:12	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/subscriptions-and-newsletters/?ref=newsletter-lp (from https://wordpress.com/es/newsletter/)
+11:14:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/payments/
+11:14:18	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/payments/ to https://wordpress.com/es/support/editor-wordpress/bloques/pagos/
+11:14:20	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/launch-a-newsletter/?ref=newsletter-lp (from https://wordpress.com/es/newsletter/)
+11:14:24	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/adding-google-workspace-to-your-site/
+11:14:24	Warning: 	File has moved from https://wordpress.com/es/support/add-email/adding-google-workspace-to-your-site/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-google-workspace/
+11:14:27	Warning: 	Moved Permanently for https://wordpress.com/es/domains/?ref=professional-email
+11:14:27	Warning: 	File has moved from https://wordpress.com/es/domains/?ref=professional-email to https://wordpress.com/es/dominios/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/for-agencies/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/for-agencies/ to https://wordpress.com/es/para-agencias/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/website-builder/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/website-builder/ to https://wordpress.com/es/creador-de-sitios-web/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/professional-email/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/professional-email/ to https://wordpress.com/es/correo-electronico-profesional/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/features/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/features/ to https://wordpress.com/es/funciones/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/logo-maker/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/logo-maker/ to https://wordpress.com/es/creador-de-logotipos/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/how-to-create-a-staging-site/?ref=es%2Fecommerce-lp
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/support/how-to-create-a-staging-site/?ref=es%2Fecommerce-lp to https://wordpress.com/es/support/crear-un-sitio-de-pruebas/?ref=es%2Fecommerce-lp
+11:14:36	Error: 	"Not Found" (404) at link https://wordpress.com/es/ecommerce/document.location (from https://wordpress.com/es/ecommerce/)
+11:14:36	Warning: 	Found for https://wordpress.com/es/support/how-to-create-a-staging-site/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/support/how-to-create-a-staging-site/ to https://wordpress.com/es/support/crear-un-sitio-de-pruebas/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/expert-support/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/expert-support/ to https://wordpress.com/es/support/
+11:14:36	Warning: 	Moved Permanently for https://wordpress.com/es/backups/
+11:14:36	Warning: 	File has moved from https://wordpress.com/es/backups/ to https://wordpress.com/es/copias-de-seguridad/
+11:15:58	Warning: 	Found for https://wordpress.com/es/webinars/
+11:15:58	Warning: 	File has moved from https://wordpress.com/es/webinars/ to https://wordpress.com/learn/es/webinars/
+11:26:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/plugins/install-a-plugin/
+11:26:52	Warning: 	File has moved from https://wordpress.com/es/support/plugins/install-a-plugin/ to https://wordpress.com/es/support/plugins/instalar-un-plugin/
+11:26:53	Warning: 	Moved Permanently for https://wordpress.com/es/support/plugins/find-and-choose-plugins/
+11:26:53	Warning: 	File has moved from https://wordpress.com/es/support/plugins/find-and-choose-plugins/ to https://wordpress.com/es/support/plugins/practicas-recomendadas-plugins/
+11:28:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/block-pattern/
+11:28:57	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/block-pattern/ to https://wordpress.com/es/support/editor-wordpress/patron-de-bloque/
+11:28:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/page-layouts/
+11:28:57	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/page-layouts/ to https://wordpress.com/es/support/editor-wordpress/diseno-paginas/
+11:28:58	Warning: 	Moved Permanently for https://wordpress.com/es/google/analytics/
+11:28:58	Warning: 	File has moved from https://wordpress.com/es/google/analytics/ to https://wordpress.com/es/support/google-analytics/
+11:28:58	Warning: 	Moved Permanently for https://wordpress.com/es/google/workspace/
+11:28:58	Warning: 	File has moved from https://wordpress.com/es/google/workspace/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-google-workspace/
+11:28:58	Warning: 	Moved Permanently for https://wordpress.com/es/google/docs/
+11:28:58	Warning: 	File has moved from https://wordpress.com/es/google/docs/ to https://wordpress.com/support/wordpress-com-add-on-for-google-docs/
+11:28:58	Warning: 	Moved Permanently for https://wordpress.com/es/google/photos/
+11:28:58	Warning: 	File has moved from https://wordpress.com/es/google/photos/ to https://wordpress.com/es/support/google-fotos/
+11:29:03	Error: 	"Not Found" (404) at link https://wordpress.com/es/google/document.location (from https://wordpress.com/es/google/)
+11:38:51	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/forum/support/ (from https://wordpress.com/es/support/)
+11:38:53	Warning: 	Moved Permanently for https://wordpress.com/es/go/2024/12/11/consejos-seo-local/
+11:38:53	Warning: 	File has moved from https://wordpress.com/es/go/2024/12/11/consejos-seo-local/ to https://wordpress.com/es/go/tutoriales/consejos-seo-local/
+11:38:59	Warning: 	Moved Permanently for https://wordpress.com/es/go/2024/12/04/plugins-de-sitemap-de-wordpress/
+11:38:59	Warning: 	File has moved from https://wordpress.com/es/go/2024/12/04/plugins-de-sitemap-de-wordpress/ to https://wordpress.com/es/go/marketing-digital/plugins-de-sitemap-de-wordpress/
+11:39:01	Warning: 	Moved Permanently for https://wordpress.com/es/go/2024/11/27/como-crear-una-web-de-noticias/
+11:39:01	Warning: 	File has moved from https://wordpress.com/es/go/2024/11/27/como-crear-una-web-de-noticias/ to https://wordpress.com/es/go/creacion-de-webs/como-crear-una-web-de-noticias/
+11:39:01	Warning: 	Moved Permanently for https://wordpress.com/es/go/2024/11/20/gana-ingresos-pasivos-en-linea-con-wordpress-com/
+11:39:01	Warning: 	File has moved from https://wordpress.com/es/go/2024/11/20/gana-ingresos-pasivos-en-linea-con-wordpress-com/ to https://wordpress.com/es/go/tutoriales/gana-ingresos-pasivos-en-linea-con-wordpress-com/
+11:39:01	Warning: 	Moved Permanently for https://wordpress.com/es/go/2024/11/13/tipos-de-web/
+11:39:01	Warning: 	File has moved from https://wordpress.com/es/go/2024/11/13/tipos-de-web/ to https://wordpress.com/es/go/creacion-de-webs/tipos-de-web/
+11:58:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/2022/03/08/the-future-of-plugin-themes-and-services-purchases-on-wordpress-com/?ref=es%2Fpartners-lp (from https://wordpress.com/es/partners/)
+11:58:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/partners/document.location (from https://wordpress.com/es/partners/)
+11:59:02	Error: 	"Not Found" (404) at link https://wordpress.com/es/me/purchases (from https://wordpress.com/es/tos/)
+11:59:02	Warning: 	Moved Permanently for https://wordpress.com/es/support/recurring-payments/
+11:59:02	Warning: 	File has moved from https://wordpress.com/es/support/recurring-payments/ to https://wordpress.com/es/support/pagos-recurrentes/
+11:59:03	Error: 	"Not Found" (404) at link https://wordpress.com/es/me/purchases/other (from https://wordpress.com/es/tos/)
+11:59:03	Warning: 	Moved Permanently for https://wordpress.com/es/support/report-blogs/
+11:59:03	Warning: 	File has moved from https://wordpress.com/es/support/report-blogs/ to https://wordpress.com/es/support/denunciar-blogs/
+11:59:03	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/reblogs/ (from https://wordpress.com/es/tos/)
+11:59:03	Warning: 	Moved Permanently for https://wordpress.com/es/support/user-guidelines/
+11:59:03	Warning: 	File has moved from https://wordpress.com/es/support/user-guidelines/ to https://wordpress.com/es/support/directrices-del-usuario/
+11:59:03	Warning: 	Moved Permanently for https://wordpress.com/es/support/footer-credits/
+11:59:03	Warning: 	File has moved from https://wordpress.com/es/support/footer-credits/ to https://wordpress.com/es/support/creditos-a-pie-de-pagina/
+11:59:03	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/registry-policies/ (from https://wordpress.com/es/tos/)
+11:59:04	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/domain-registration-agreements (from https://wordpress.com/es/tos/)
+11:59:04	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/domain-expiration/
+11:59:04	Warning: 	File has moved from https://wordpress.com/es/support/domains/domain-expiration/ to https://wordpress.com/es/support/dominios/caducidad-dominio/
+11:59:04	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/domain-pricing-and-available-tlds/
+11:59:04	Warning: 	File has moved from https://wordpress.com/es/support/domains/domain-pricing-and-available-tlds/ to https://wordpress.com/es/support/dominios/precios-de-los-dominios-y-tld-disponibles/
+11:59:04	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/update-contact-information/ (from https://wordpress.com/es/tos/)
+11:59:04	Warning: 	Moved Permanently for https://wordpress.com/es/support/website-design-service/
+11:59:04	Warning: 	File has moved from https://wordpress.com/es/support/website-design-service/ to https://wordpress.com/es/support/servicio-de-diseno-de-sitios-web/
+11:59:04	Warning: 	Moved Permanently for https://wordpress.com/es/support/store-guidelines/
+11:59:04	Warning: 	File has moved from https://wordpress.com/es/support/store-guidelines/ to https://wordpress.com/es/support/directrices-de-la-tienda/
+11:59:04	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/restricted-businesses-and-activities/ (from https://wordpress.com/es/tos/)
+11:59:07	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/automattic-gdpr/data-processing-agreements/ (from https://wordpress.com/es/tos/)
+11:59:13	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/register-domain/
+11:59:13	Warning: 	File has moved from https://wordpress.com/es/support/domains/register-domain/ to https://wordpress.com/es/support/dominios/registrar-dominio/
+11:59:13	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/incoming-domain-transfer/
+11:59:13	Warning: 	File has moved from https://wordpress.com/es/support/domains/incoming-domain-transfer/ to https://wordpress.com/es/support/dominios/transferencia-de-dominio-entrante/
+11:59:13	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/connect-existing-domain/
+11:59:13	Warning: 	File has moved from https://wordpress.com/es/support/domains/connect-existing-domain/ to https://wordpress.com/es/support/dominios/conexion-de-dominio/
+11:59:13	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wp-content/uploads/2024/08/pending-ssl-certificate.png (from https://wordpress.com/es/support/dominios/https-ssl/)
+11:59:13	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/dnssec-on-wordpress-com/ (from https://wordpress.com/es/support/dominios/https-ssl/)
+11:59:41	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-speed/
+11:59:41	Warning: 	File has moved from https://wordpress.com/es/support/site-speed/ to https://wordpress.com/es/support/velocidad-del-sitio/
+11:59:41	Warning: 	Moved Permanently for https://wordpress.com/es/support/check-your-wordpress-version/
+11:59:41	Warning: 	File has moved from https://wordpress.com/es/support/check-your-wordpress-version/ to https://wordpress.com/es/support/comprueba-tu-version-de-wordpress/
+11:59:42	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/settings/performance-settings/ (from https://wordpress.com/es/go/creacion-de-webs/que-es-el-hosting-gestionado-de-wordpress/)
+11:59:42	Warning: 	Moved Permanently for https://wordpress.com/es/support/seo-tools/
+11:59:42	Warning: 	File has moved from https://wordpress.com/es/support/seo-tools/ to https://wordpress.com/es/support/herramientas-seo/
+11:59:42	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/editors/page-post-revisions/ (from https://wordpress.com/es/go/creacion-de-webs/que-es-el-hosting-gestionado-de-wordpress/)
+11:59:56	Warning: 	Moved Permanently for https://wordpress.com/es/support/connect-to-ssh-on-wordpress-com/
+11:59:56	Warning: 	File has moved from https://wordpress.com/es/support/connect-to-ssh-on-wordpress-com/ to https://wordpress.com/es/support/conexion-con-ssh-en-wordpress-com/
+11:59:56	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/using-wp-cli/ (from https://wordpress.com/es/go/creacion-de-webs/que-es-el-hosting-gestionado-de-wordpress/)
+11:59:56	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordads-and-earn/
+11:59:56	Warning: 	File has moved from https://wordpress.com/es/support/wordads-and-earn/ to https://wordpress.com/es/support/wordads-y-ganancias/
+12:00:06	Warning: 	Moved Permanently for https://wordpress.com/es/support/request-a-free-migration/?ref=move-lp
+12:00:06	Warning: 	File has moved from https://wordpress.com/es/support/request-a-free-migration/?ref=move-lp to https://wordpress.com/es/support/solicitar-una-migracion-gratuita/?ref=move-lp
+12:00:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/dominios/manage/ (from https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-google-workspace/)
+12:00:27	Error: 	"Error when decompressing" (-1) at link https://wordpress.com/es/dominios/manage (from https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-google-workspace/)
+12:00:29	Warning: 	Moved Permanently for wordpress.com/robots.txt
+12:00:29	Warning: 	Redirected link is identical because of 'URL Hack' option: wordpress.com/robots.txt and https://wordpress.com/robots.txt
+12:00:29	Warning: 	Warning moved treated for wordpress.com/robots.txt (real one is https://wordpress.com/robots.txt)
+12:00:31	Warning: 	Moved Permanently for wordpress.com/es/support/mover-tu-dominio/cambia-los-servidores-dns/
+12:00:31	Warning: 	Redirected link is identical because of 'URL Hack' option: wordpress.com/es/support/mover-tu-dominio/cambia-los-servidores-dns/ and https://wordpress.com/es/support/mover-tu-dominio/cambia-los-servidores-dns/
+12:00:31	Warning: 	File has moved from wordpress.com/es/support/mover-tu-dominio/cambia-los-servidores-dns/ to https://wordpress.com/es/support/mover-tu-dominio/cambia-los-servidores-dns/
+12:01:41	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/
+12:01:41	Warning: 	File has moved from https://wordpress.com/es/support/add-email/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/
+12:02:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/full-site-editing/
+12:02:17	Warning: 	File has moved from https://wordpress.com/es/support/full-site-editing/ to https://wordpress.com/es/support/editor-del-sitio/
+12:02:31	Warning: 	Moved Permanently for https://wordpress.com/es/support/plugins/update-a-plugin-or-theme/
+12:02:31	Warning: 	File has moved from https://wordpress.com/es/support/plugins/update-a-plugin-or-theme/ to https://wordpress.com/es/support/plugins/actualiza-un-plugin-o-tema/
+12:02:31	Warning: 	Moved Permanently for https://wordpress.com/es/support/restore/
+12:02:31	Warning: 	File has moved from https://wordpress.com/es/support/restore/ to https://wordpress.com/es/support/restaurar/
+12:02:44	Warning: 	Moved Permanently for https://wordpress.com/es/domains/?ref=es-go-domains
+12:02:44	Warning: 	File has moved from https://wordpress.com/es/domains/?ref=es-go-domains to https://wordpress.com/es/dominios/
+12:02:45	Warning: 	Moved Permanently for https://wordpress.com/es/support/reader/
+12:02:45	Warning: 	File has moved from https://wordpress.com/es/support/reader/ to https://wordpress.com/es/support/lector/
+12:02:59	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/followers/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-formulario-de-suscripcion/)
+12:03:00	Warning: 	Moved Permanently for https://wordpress.com/es/support/post-automatically-to-social-media/
+12:03:00	Warning: 	File has moved from https://wordpress.com/es/support/post-automatically-to-social-media/ to https://wordpress.com/es/support/publicar-automaticamente-en-redes-sociales/
+12:03:02	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/adding-additional-css-classes-to-blocks/
+12:03:02	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/adding-additional-css-classes-to-blocks/ to https://wordpress.com/es/support/editor-wordpress/anadir-clases-css-adicionales-a-bloques/
+12:03:02	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/subscribe-block/
+12:03:02	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/subscribe-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-formulario-de-suscripcion/
+12:03:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/patron-de-bloque/
+12:03:32	Warning: 	File has moved from https://wordpress.com/es/support/patron-de-bloque/ to https://wordpress.com/es/support/editor-wordpress/patron-de-bloque/
+12:03:32	Warning: 	Found for https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=facebook
+12:03:32	Warning: 	File has moved from https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2022%2F11%2F28%2Fnuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas%2F&t=Nuevos%20patrones%3A%20suscripciones%2C%20biograf%C3%ADa%20con%20enlaces%2C%20esquemas%20y%20mucho%20m%C3%A1s
+12:03:32	Warning: 	Found for https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=twitter
+12:03:32	Warning: 	File has moved from https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Nuevos%20patrones%3A%20suscripciones%2C%20biograf%C3%ADa%20con%20enlaces%2C%20esquemas%20y%20mucho%20m%C3%A1s&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2022%2F11%2F28%2Fnuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas%2F
+12:03:32	Warning: 	Found for https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=email
+12:03:32	Warning: 	File has moved from https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=email to https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?shared=email&msg=fail
+12:03:39	Warning: 	Found for https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=reddit
+12:03:39	Warning: 	File has moved from https://wordpress.com/es/blog/2022/11/28/nuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2022%2F11%2F28%2Fnuevos-patrones-suscripciones-biografia-con-enlaces-esquemas-y-mucho-mas%2F&title=Nuevos%20patrones%3A%20suscripciones%2C%20biograf%C3%ADa%20con%20enlaces%2C%20esquemas%20y%20mucho%20m%C3%A1s
+12:09:06	Warning: 	Moved Permanently for https://wordpress.com/es/partner-listing/
+12:09:06	Warning: 	File has moved from https://wordpress.com/es/partner-listing/ to https://wordpress.com/es/development-services/
+13:00:22	Warning: 	Moved Permanently for https://wordpress.com/es/go/website-building/wordpress-com-vs-wordpress-org/
+13:00:22	Warning: 	File has moved from https://wordpress.com/es/go/website-building/wordpress-com-vs-wordpress-org/ to https://wordpress.com/es/go/creacion-de-webs/diferencia-entre-wordpress-com-y-wordpress-org/
+13:05:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/plugins/incompatible-plugins/
+13:05:47	Warning: 	File has moved from https://wordpress.com/es/support/plugins/incompatible-plugins/ to https://wordpress.com/es/support/plugins/plugins-incompatibles/
+13:05:47	Warning: 	Found for https://wordpress.com/es/plans/
+13:05:47	Warning: 	File has moved from https://wordpress.com/es/plans/ to https://wordpress.com/es/pricing/
+13:05:47	Warning: 	Moved Permanently for https://wordpress.com/es/go/website-building/how-to-create-an-online-portfolio-complete-guide/
+13:05:47	Warning: 	File has moved from https://wordpress.com/es/go/website-building/how-to-create-an-online-portfolio-complete-guide/ to https://wordpress.com/es/go/creacion-de-webs/guia-completa-para-crear-un-portafolio-digital/
+13:05:50	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-an-entire-wordpress-site/
+13:05:50	Warning: 	File has moved from https://wordpress.com/es/support/import/import-an-entire-wordpress-site/ to https://wordpress.com/es/support/importar/pasar-de-wordpress-autoalojado-a-wordpress-com/
+13:06:21	Warning: 	Moved Permanently for https://wordpress.com/es/support/themes/
+13:06:21	Warning: 	File has moved from https://wordpress.com/es/support/themes/ to https://wordpress.com/es/support/temas/
+13:06:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/five-step-blog-setup/
+13:06:32	Warning: 	File has moved from https://wordpress.com/es/support/five-step-blog-setup/ to https://wordpress.com/es/support/pon-en-marcha-tu-blog-en-cinco-pasos/
+13:06:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-icons/
+13:06:32	Warning: 	File has moved from https://wordpress.com/es/support/site-icons/ to https://wordpress.com/es/support/iconos-de-sitios/
+13:06:32	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/settings/general-settings/ (from https://wordpress.com/es/support/necesito-un-sitio-web-un-blog-o-un-sitio-web-con-un-blog/)
+13:06:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/posts/
+13:06:32	Warning: 	File has moved from https://wordpress.com/es/support/posts/ to https://wordpress.com/es/support/entradas/
+13:06:50	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/video-tutorials/ (from https://wordpress.com/es/support/necesito-un-sitio-web-un-blog-o-un-sitio-web-con-un-blog/)
+13:06:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/navigate-wordpress-com/
+13:06:51	Warning: 	File has moved from https://wordpress.com/es/support/navigate-wordpress-com/ to https://wordpress.com/es/support/navegar-wordpress-com/
+13:06:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/plan-features/
+13:06:51	Warning: 	File has moved from https://wordpress.com/es/support/plan-features/ to https://wordpress.com/es/support/funciones-planes/
+13:06:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/
+13:06:51	Warning: 	File has moved from https://wordpress.com/es/support/domains/ to https://wordpress.com/es/support/dominios/
+13:06:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/
+13:06:51	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/ to https://wordpress.com/es/support/editor-wordpress/
+13:06:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/menus/add-links-to-a-menu/
+13:06:51	Warning: 	File has moved from https://wordpress.com/es/support/menus/add-links-to-a-menu/ to https://wordpress.com/es/support/menus/anadir-enlaces-a-un-menu/
+13:06:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/launch-your-website/
+13:06:57	Warning: 	File has moved from https://wordpress.com/es/support/launch-your-website/ to https://wordpress.com/es/support/publicar-tu-web/
+13:06:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/getting-more-views-and-traffic/
+13:06:57	Warning: 	File has moved from https://wordpress.com/es/support/getting-more-views-and-traffic/ to https://wordpress.com/es/support/conseguir-mas-vistas-y-trafico/
+13:06:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/social-icons-block/
+13:06:57	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/social-icons-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-iconos-sociales/
+13:41:27	Warning: 	Moved Permanently for https://wordpress.com/es/support/soporte-css/
+13:41:27	Warning: 	File has moved from https://wordpress.com/es/support/soporte-css/ to https://wordpress.com/es/support/edicion-de-css/soporte-css/
+13:41:37	Error: 	"Not Found" (404) at link https://wordpress.com/es/home (from https://wordpress.com/es/support/editor-wordpress/como-deshacer-cambios/)
+13:41:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/page-post-revisions/
+13:41:37	Warning: 	File has moved from https://wordpress.com/es/support/page-post-revisions/ to https://wordpress.com/es/support/editores/revisiones-entradas-paginas/
+13:41:37	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/activate-your-business-plan/ (from https://wordpress.com/es/support/editor-wordpress/como-deshacer-cambios/)
+13:41:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/manage-purchases/upgrade-your-plan/
+13:41:37	Warning: 	File has moved from https://wordpress.com/es/support/manage-purchases/upgrade-your-plan/ to https://wordpress.com/es/support/mejora-tu-plan/
+13:41:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/activity/
+13:41:37	Warning: 	File has moved from https://wordpress.com/es/support/activity/ to https://wordpress.com/es/support/actividad/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/domain-connection-vs-domain-transfer/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/domain-connection-vs-domain-transfer/ to https://wordpress.com/es/support/conexion-de-dominio-frente-a-transferencia-de-dominio/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/move-a-domain-to-another-wordpress-com-site/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/domains/move-a-domain-to-another-wordpress-com-site/ to https://wordpress.com/es/support/dominios/traspasar-un-dominio-a-otro-sitio-de-wordpress-com/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/add-other-email/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/add-email/add-other-email/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-otro-correo-electronico/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/browser-issues/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/browser-issues/ to https://wordpress.com/es/support/problemas-del-navegador/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/set-a-primary-address/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/domains/set-a-primary-address/ to https://wordpress.com/es/support/dominios/establecer-una-direccion-principal/
+13:46:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/custom-dns/
+13:46:55	Warning: 	File has moved from https://wordpress.com/es/support/domains/custom-dns/ to https://wordpress.com/es/support/dominios/dns-personalizados/
+13:47:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/themes/choose-a-theme/
+13:47:18	Warning: 	File has moved from https://wordpress.com/es/support/themes/choose-a-theme/ to https://wordpress.com/es/support/temas/escoger-un-tema/
+13:47:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/templates/edit-the-default-homepage-template/
+13:47:18	Warning: 	File has moved from https://wordpress.com/es/support/templates/edit-the-default-homepage-template/ to https://wordpress.com/es/support/plantillas/edit-the-default-homepage-template/
+13:47:23	Warning: 	Moved Permanently for https://wordpress.com/es/support/posts-page/
+13:47:23	Warning: 	File has moved from https://wordpress.com/es/support/posts-page/ to https://wordpress.com/es/support/pagina-de-entradas/
+13:47:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-editor/
+13:47:47	Warning: 	File has moved from https://wordpress.com/es/support/site-editor/ to https://wordpress.com/es/support/editor-del-sitio/
+13:47:47	Error: 	"Not Found" (404) at link https://es.support.wordpress.com/wp-content/uploads/2021/03/customize-navigation.png (from https://wordpress.com/es/support/personalizador/)
+13:47:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/privacy-settings/
+13:47:47	Warning: 	File has moved from https://wordpress.com/es/support/privacy-settings/ to https://wordpress.com/es/support/configuracion-privacidad/
+13:47:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/pages/front-page/
+13:47:47	Warning: 	File has moved from https://wordpress.com/es/support/pages/front-page/ to https://wordpress.com/es/support/paginas/pagina-de-inicio/
+13:47:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/pages/
+13:47:47	Warning: 	File has moved from https://wordpress.com/es/support/pages/ to https://wordpress.com/es/support/paginas/
+13:47:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/editing-css/
+13:47:47	Warning: 	File has moved from https://wordpress.com/es/support/editing-css/ to https://wordpress.com/es/support/edicion-de-css/
+13:47:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/customizer/content-options/ (from https://wordpress.com/es/support/personalizador/)
+13:47:48	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/customizer/change-colors-in-the-customizer/ (from https://wordpress.com/es/support/personalizador/)
+13:47:48	Warning: 	Moved Permanently for https://wordpress.com/es/support/featured-content/
+13:47:48	Warning: 	File has moved from https://wordpress.com/es/support/featured-content/ to https://wordpress.com/es/support/contenido-destacado/
+13:47:48	Warning: 	Moved Permanently for https://wordpress.com/es/support/custom-fonts/
+13:47:48	Warning: 	File has moved from https://wordpress.com/es/support/custom-fonts/ to https://wordpress.com/es/support/fuentes-personalizadas/
+13:47:48	Warning: 	Moved Permanently for https://wordpress.com/es/support/custom-header-image/
+13:47:48	Warning: 	File has moved from https://wordpress.com/es/support/custom-header-image/ to https://wordpress.com/es/support/imagen-de-encabezado-personalizada/
+13:48:14	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/themes/set-up-your-theme/ (from https://wordpress.com/es/support/plantillas/)
+13:48:14	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/templates/edit-the-index-and-archive-templates/ (from https://wordpress.com/es/support/plantillas/)
+13:48:14	Warning: 	Moved Permanently for https://wordpress.com/es/support/templates/edit-the-page-template/
+13:48:14	Warning: 	File has moved from https://wordpress.com/es/support/templates/edit-the-page-template/ to https://wordpress.com/es/support/plantillas/editar-la-plantilla-de-pagina/
+13:48:14	Warning: 	Moved Permanently for https://wordpress.com/es/support/templates/edit-the-single-template/
+13:48:14	Warning: 	File has moved from https://wordpress.com/es/support/templates/edit-the-single-template/ to https://wordpress.com/es/support/plantillas/editar-la-plantilla-entradas-individuales/
+13:48:14	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/use-list-view/
+13:48:14	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/use-list-view/ to https://wordpress.com/es/support/editor-wordpress/usar-vista-de-lista/
+13:48:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/site-editor/theme-blocks/site-title-block/ (from https://wordpress.com/es/support/plantillas/)
+13:48:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/site-editor/theme-blocks/site-tagline-block/ (from https://wordpress.com/es/support/plantillas/)
+13:48:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/site-editor/theme-blocks/site-logo-block/ (from https://wordpress.com/es/support/plantillas/)
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-editor/customize-your-header/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/site-editor/customize-your-header/ to https://wordpress.com/es/support/editor-del-sitio/personalizar-la-cabecera/
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/navigation-block/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/navigation-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-navegacion/
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-editor/add-a-sidebar/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/site-editor/add-a-sidebar/ to https://wordpress.com/es/support/editor-del-sitio/anadir-una-barra-lateral/
+13:48:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/site-editor/reorganize-elements-of-your-posts/ (from https://wordpress.com/es/support/plantillas/)
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-editor/hide-page-or-post-title/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/site-editor/hide-page-or-post-title/ to https://wordpress.com/es/support/editor-del-sitio/ocultar-titulo-de-pagina-o-entrada/
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/edit-the-footer/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/edit-the-footer/ to https://wordpress.com/es/support/editar-el-pie-de-pagina/
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/ to https://wordpress.com/es/support/editor-wordpress/bloques/
+13:48:15	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/post-content-block/
+13:48:15	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/post-content-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-contenido-de-la-entrada/
+13:51:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/change-your-username/
+13:51:36	Warning: 	File has moved from https://wordpress.com/es/support/change-your-username/ to https://wordpress.com/es/support/cambiar-tu-nombre-de-usuario/
+13:51:36	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/empty-site/ (from https://wordpress.com/es/support/cerrar-cuenta/)
+13:51:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/delete-site/
+13:51:36	Warning: 	File has moved from https://wordpress.com/es/support/delete-site/ to https://wordpress.com/es/support/eliminar-sitio/
+13:51:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/email-address/
+13:51:36	Warning: 	File has moved from https://wordpress.com/es/support/email-address/ to https://wordpress.com/es/support/direccion-de-correo-electronico/
+13:51:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/https-ssl/
+13:51:36	Warning: 	File has moved from https://wordpress.com/es/support/https-ssl/ to https://wordpress.com/es/support/dominios/https-ssl/
+13:51:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/security/two-step-authentication/
+13:51:39	Warning: 	File has moved from https://wordpress.com/es/support/security/two-step-authentication/ to https://wordpress.com/es/support/seguridad/autenticacion-en-dos-pasos/
+13:51:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/passwords/
+13:51:39	Warning: 	File has moved from https://wordpress.com/es/support/passwords/ to https://wordpress.com/es/support/contrasenas/
+13:53:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/promote-a-post/
+13:53:38	Warning: 	File has moved from https://wordpress.com/es/support/promote-a-post/ to https://wordpress.com/es/support/promocionar-una-publicacion/
+13:53:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/configuracion/configuracion-privacidad/
+13:53:38	Warning: 	File has moved from https://wordpress.com/es/support/configuracion/configuracion-privacidad/ to https://wordpress.com/es/support/configuracion-privacidad/
+13:53:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-verification-services/
+13:53:39	Warning: 	File has moved from https://wordpress.com/es/support/site-verification-services/ to https://wordpress.com/es/support/herramientas-de-administrador-web/
+13:53:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/posts/categories/
+13:53:39	Warning: 	File has moved from https://wordpress.com/es/support/posts/categories/ to https://wordpress.com/es/support/entradas/categorias/
+13:53:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/posts/tags/
+13:53:39	Warning: 	File has moved from https://wordpress.com/es/support/posts/tags/ to https://wordpress.com/es/support/entradas/etiquetas/
+13:53:39	Warning: 	Moved Permanently for https://wordpress.com/es/support/comments/pingbacks/
+13:53:39	Warning: 	File has moved from https://wordpress.com/es/support/comments/pingbacks/ to https://wordpress.com/es/support/comentarios/pingbacks/
+13:53:49	Error: 	"Not Found" (404) at link https://en.support.wordpress.com/wp-content/uploads/2020/07https:/wordpress.com/es/support/herramientas-de-administrador-web-google.png?w=1024 (from https://wordpress.com/es/support/herramientas-de-administrador-web/)
+13:53:49	Warning: 	Moved Permanently for https://wordpress.com/es/support/stats/
+13:53:49	Warning: 	File has moved from https://wordpress.com/es/support/stats/ to https://wordpress.com/es/support/estadisticas/
+13:53:49	Warning: 	Moved Permanently for https://wordpress.com/es/support/adding-code-to-headers/
+13:53:49	Warning: 	File has moved from https://wordpress.com/es/support/adding-code-to-headers/ to https://wordpress.com/es/support/anadir-codigo-a-encabezados/
+13:55:16	Warning: 	Moved Permanently for https://wordpress.com/es/support/plugins/get-help-with-plugins-and-themes/
+13:55:16	Warning: 	File has moved from https://wordpress.com/es/support/plugins/get-help-with-plugins-and-themes/ to https://wordpress.com/es/support/plugins/ayuda-para-temas-y-plugins-de-terceros/
+13:56:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/mailchimp-block/
+13:56:18	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/mailchimp-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-mailchimp/
+13:56:23	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/comment-likes/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:56:25	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/user-mentions/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:56:30	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/notifications/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/tiled-gallery-block/
+13:57:36	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/tiled-gallery-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-galeria-de-mosaicos/
+13:57:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/posts-carousel-block/
+13:57:37	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/posts-carousel-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-carrusel-de-entradas/
+13:57:37	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/infinite-scroll/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/related-posts/
+13:57:37	Warning: 	File has moved from https://wordpress.com/es/support/related-posts/ to https://wordpress.com/es/support/entradas-relacionadas/
+13:57:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/likes/
+13:57:37	Warning: 	File has moved from https://wordpress.com/es/support/likes/ to https://wordpress.com/es/support/me-gusta/
+13:57:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/embed-block/
+13:57:37	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/embed-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/
+13:57:37	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/facebook-integration/facebook-embeds/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:37	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/twitter-block/
+13:57:37	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/twitter-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-twitter/
+13:57:37	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wordpress-editor/blocks/tiktok-block/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:38	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wordpress-editor/blocks/event-countdown-block/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:38	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wordpress-editor/blocks/eventbrite-block/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/poll-block/
+13:57:38	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/poll-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-encuesta/
+13:57:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/editor-wordpress/bloques/bloque-contenido-premium/
+13:57:38	Warning: 	File has moved from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-contenido-premium/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-contenido-de-pago/
+13:57:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/donations/
+13:57:38	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/donations/ to https://wordpress.com/es/support/editor-wordpress/bloques/donaciones/
+13:57:38	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/audio-block/
+13:57:38	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/audio-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-audio/
+13:57:50	Warning: 	Moved Permanently for https://wordpress.com/es/support/paga-con-paypal/
+13:57:50	Warning: 	File has moved from https://wordpress.com/es/support/paga-con-paypal/ to https://wordpress.com/es/support/editor-wordpress/bloques/paga-con-paypal/
+13:57:51	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/calendly-block/
+13:57:51	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/calendly-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-calendly/
+13:57:51	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wordpress-editor/blocks/opentable-block/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:57:51	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/funciones-planes/plan-ecommerce/ (from https://wordpress.com/es/support/plugins/instalar-un-plugin/)
+13:58:33	Warning: 	Moved Permanently for https://wordpress.com/es/support/paid-newsletters/
+13:58:33	Warning: 	File has moved from https://wordpress.com/es/support/paid-newsletters/ to https://wordpress.com/es/support/newsletters-de-pago/
+13:58:33	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/premium-content-block/
+13:58:33	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/premium-content-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-contenido-de-pago/
+13:58:33	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/pay-with-paypal/ (from https://wordpress.com/es/support/monetiza-tu-sitio/)
+13:58:33	Warning: 	Moved Permanently for https://wordpress.com/es/support/code/
+13:58:33	Warning: 	File has moved from https://wordpress.com/es/support/code/ to https://wordpress.com/es/support/codigo/
+13:58:33	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/adding-amazon-com-affiliate-links-to-your-wordpress-com-site/ (from https://wordpress.com/es/support/monetiza-tu-sitio/)
+13:58:57	Warning: 	Moved Permanently for https://wordpress.com/es/support/introduction-to-woocommerce/
+13:58:57	Warning: 	File has moved from https://wordpress.com/es/support/introduction-to-woocommerce/ to https://wordpress.com/es/support/introduccion-a-woocommerce/
+13:58:58	Warning: 	Moved Permanently for https://wordpress.com/es/support/connect-a-stripe-account/
+13:58:58	Warning: 	File has moved from https://wordpress.com/es/support/connect-a-stripe-account/ to https://wordpress.com/es/support/conecta-una-cuenta-de-stripe/
+13:58:58	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/wordpress-editor/blocks/reusable-block/ (from https://wordpress.com/es/support/editor-wordpress/bloques/pagos/)
+13:58:58	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/form-block/
+13:58:58	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/form-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-formulario/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/plan-features/business-plan/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/plan-features/business-plan/ to https://wordpress.com/es/support/funciones-planes/plan-business/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/request-a-free-migration/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/request-a-free-migration/ to https://wordpress.com/es/support/solicitar-una-migracion-gratuita/
+13:59:17	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import-using-move-to-wordpress-com/ (from https://wordpress.com/es/support/importar/)
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-using-migrate-guru/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/import/import-using-migrate-guru/ to https://wordpress.com/es/support/importar/importar-con-migrate-guru/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-using-all-in-one-migration/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/import/import-using-all-in-one-migration/ to https://wordpress.com/es/support/importar/importar-con-all-in-one-migration/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-a-sites-content/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/import/import-a-sites-content/ to https://wordpress.com/es/support/importar/importar-el-contenido-de-un-sitio/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/copy-a-site/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/copy-a-site/ to https://wordpress.com/es/support/copiar-un-sitio/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/changing-site-address/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/changing-site-address/ to https://wordpress.com/es/support/cambio-de-direccion-del-blog/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/coming-from-blogger/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/import/coming-from-blogger/ to https://wordpress.com/es/support/importar/pasarse-de-blogger/
+13:59:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-from-facebook/
+13:59:17	Warning: 	File has moved from https://wordpress.com/es/support/import/import-from-facebook/ to https://wordpress.com/es/support/importar/importar-desde-facebook/
+13:59:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import/import-from-medium/ (from https://wordpress.com/es/support/importar/)
+13:59:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-from-squarespace/
+13:59:18	Warning: 	File has moved from https://wordpress.com/es/support/import/import-from-squarespace/ to https://wordpress.com/es/support/importar/importar-desde-squarespace/
+13:59:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import/import-from-tumblr/ (from https://wordpress.com/es/support/importar/)
+13:59:18	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/import-from-wix/
+13:59:18	Warning: 	File has moved from https://wordpress.com/es/support/import/import-from-wix/ to https://wordpress.com/es/support/importar/importar-de-wix/
+13:59:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import/import-from-weebly/ (from https://wordpress.com/es/support/importar/)
+13:59:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import/import-from-xanga/ (from https://wordpress.com/es/support/importar/)
+13:59:19	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import-from-gumroad/ (from https://wordpress.com/es/support/importar/)
+13:59:19	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/import-from-substack/ (from https://wordpress.com/es/support/importar/)
+13:59:19	Warning: 	Moved Permanently for https://wordpress.com/es/support/import/converting-an-html-site-to-wordpress/
+13:59:19	Warning: 	File has moved from https://wordpress.com/es/support/import/converting-an-html-site-to-wordpress/ to https://wordpress.com/es/support/importar/convertir-un-sitio-html-a-wordpress/
+13:59:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/site-redirect/
+13:59:32	Warning: 	File has moved from https://wordpress.com/es/support/site-redirect/ to https://wordpress.com/es/support/redireccion-de-sitio/
+13:59:55	Warning: 	Moved Permanently for https://wordpress.com/es/support/uploading-documents/
+13:59:55	Warning: 	File has moved from https://wordpress.com/es/support/uploading-documents/ to https://wordpress.com/es/support/carga-de-documentos/
+14:00:01	Warning: 	Moved Permanently for https://wordpress.com/es/support/themes/child-themes/
+14:00:01	Warning: 	File has moved from https://wordpress.com/es/support/themes/child-themes/ to https://wordpress.com/es/support/temas/child-themes/
+14:00:08	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/managed-hosting-with-wordpress-com-faqs/ (from https://wordpress.com/es/support/archivos-y-carpetas-con-enlaces-simbolicos/)
+14:00:08	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/css-basics/ (from https://wordpress.com/es/support/archivos-y-carpetas-con-enlaces-simbolicos/)
+14:00:08	Warning: 	Moved Permanently for https://wordpress.com/es/support/child-themes/
+14:00:08	Warning: 	File has moved from https://wordpress.com/es/support/child-themes/ to https://wordpress.com/es/support/temas/child-themes/
+14:00:08	Error: 	"Not Found" (404) at link https://wordpress.com/es/proveedor-alojamiento-config/ (from https://wordpress.com/es/support/borrar-la-cache-de-tu-sitio/)
+14:00:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/account-recovery/
+14:00:28	Warning: 	File has moved from https://wordpress.com/es/support/account-recovery/ to https://wordpress.com/es/support/recuperacion-cuenta/
+14:00:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/com-vs-org/
+14:00:32	Warning: 	File has moved from https://wordpress.com/es/support/com-vs-org/ to https://wordpress.com/es/support/wordpress-com-y-wordpress-org/
+14:00:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/billing-history/
+14:00:32	Warning: 	File has moved from https://wordpress.com/es/support/billing-history/ to https://wordpress.com/es/support/historial-de-facturacion/
+14:00:32	Warning: 	Moved Permanently for https://wordpress.com/es/support/close-account/
+14:00:32	Warning: 	File has moved from https://wordpress.com/es/support/close-account/ to https://wordpress.com/es/support/cerrar-cuenta/
+14:00:40	Warning: 	Moved Permanently for https://wordpress.com/es/support/elegir-una-contrasena-segura/
+14:00:40	Warning: 	File has moved from https://wordpress.com/es/support/elegir-una-contrasena-segura/ to https://es.support.wordpress.com/seguridad/#elige-una-contrasena-segura
+14:00:50	Warning: 	Moved Permanently for https://wordpress.com/es/support/third-party-cookies/
+14:00:50	Warning: 	File has moved from https://wordpress.com/es/support/third-party-cookies/ to https://wordpress.com/es/support/cookies-de-terceros/
+14:00:50	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/bypassing-internet-restrictions/ (from https://wordpress.com/es/support/problemas-del-navegador/)
+14:01:21	Warning: 	Found for https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=facebook
+14:01:21	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F16%2Frecien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024%2F&t=Reci%C3%A9n%20salidos%20del%20horno%3A%20nuevos%20temas%20para%C2%A0WordPress.com%20%28diciembre%202024%29
+14:01:21	Warning: 	Found for https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=twitter
+14:01:21	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Reci%C3%A9n%20salidos%20del%20horno%3A%20nuevos%20temas%20para%C2%A0WordPress.com%20%28diciembre%202024%29&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F16%2Frecien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024%2F
+14:01:21	Warning: 	Found for https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=email
+14:01:21	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=email to https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?shared=email&msg=fail
+14:01:21	Warning: 	Found for https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=reddit
+14:01:21	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/16/recien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F16%2Frecien-salidos-del-horno-nuevos-temas-para-wordpress-com-diciembre-2024%2F&title=Reci%C3%A9n%20salidos%20del%20horno%3A%20nuevos%20temas%20para%C2%A0WordPress.com%20%28diciembre%202024%29
+14:01:24	Warning: 	Found for https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=facebook
+14:01:24	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F14%2Facompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024%2F&t=Acomp%C3%A1%C3%B1anos%20en%20directo%20el%2016%20de%20diciembre%20en%20el%20State%20of%20the%20Word%20de%202024
+14:01:24	Warning: 	Found for https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=twitter
+14:01:24	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Acomp%C3%A1%C3%B1anos%20en%20directo%20el%2016%20de%20diciembre%20en%20el%20State%20of%20the%20Word%20de%202024&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F14%2Facompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024%2F
+14:01:25	Warning: 	Found for https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=email
+14:01:25	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=email to https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?shared=email&msg=fail
+14:01:33	Warning: 	Found for https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=reddit
+14:01:33	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/14/acompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F14%2Facompananos-en-directo-el-16-de-diciembre-en-el-state-of-the-word-de-2024%2F&title=Acomp%C3%A1%C3%B1anos%20en%20directo%20el%2016%20de%20diciembre%20en%20el%20State%20of%20the%20Word%20de%202024
+14:01:41	Warning: 	Found for https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=facebook
+14:01:41	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F12%2Fsuenalo-crealo-ahora-con-un-25-de-descuento%2F&t=Su%C3%A9%C3%B1alo.%20Cr%C3%A9alo.%E2%80%A8%20Ahora%20con%20un%2025%C2%A0%25%20de%20descuento
+14:01:41	Warning: 	Found for https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=twitter
+14:01:41	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Su%C3%A9%C3%B1alo.%20Cr%C3%A9alo.%E2%80%A8%20Ahora%20con%20un%2025%C2%A0%25%20de%20descuento&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F12%2Fsuenalo-crealo-ahora-con-un-25-de-descuento%2F
+14:01:41	Warning: 	Found for https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=email
+14:01:41	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=email to https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?shared=email&msg=fail
+14:01:49	Warning: 	Found for https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=reddit
+14:01:49	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/12/suenalo-crealo-ahora-con-un-25-de-descuento/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F12%2Fsuenalo-crealo-ahora-con-un-25-de-descuento%2F&title=Su%C3%A9%C3%B1alo.%20Cr%C3%A9alo.%E2%80%A8%20Ahora%20con%20un%2025%C2%A0%25%20de%20descuento
+14:03:27	Warning: 	Found for https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=facebook
+14:03:27	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F10%2Fwordpress-com-refuerza-su-defensa-contra-ataques-ddos%2F&t=WordPress.com%C2%A0refuerza%20su%20defensa%20contra%20ataques%20DDoS
+14:04:30	Warning: 	Found for https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=twitter
+14:04:30	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=WordPress.com%C2%A0refuerza%20su%20defensa%20contra%20ataques%20DDoS&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F10%2Fwordpress-com-refuerza-su-defensa-contra-ataques-ddos%2F
+14:04:36	Warning: 	Found for https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=email
+14:04:36	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=email to https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?shared=email&msg=fail
+14:04:39	Warning: 	Found for https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=reddit
+14:04:39	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/10/wordpress-com-refuerza-su-defensa-contra-ataques-ddos/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F10%2Fwordpress-com-refuerza-su-defensa-contra-ataques-ddos%2F&title=WordPress.com%C2%A0refuerza%20su%20defensa%20contra%20ataques%20DDoS
+14:04:40	Warning: 	Found for https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=facebook
+14:04:40	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F04%2Fla-historia-que-acompana-a-tus-recetas-favoritas%2F&t=La%20historia%20que%20acompa%C3%B1a%20a%20tus%20recetas%20favoritas
+14:04:40	Warning: 	Found for https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=twitter
+14:04:40	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=La%20historia%20que%20acompa%C3%B1a%20a%20tus%20recetas%20favoritas&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F04%2Fla-historia-que-acompana-a-tus-recetas-favoritas%2F
+14:04:40	Warning: 	Found for https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=email
+14:04:40	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=email to https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?shared=email&msg=fail
+14:04:41	Warning: 	Found for https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=reddit
+14:04:41	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/04/la-historia-que-acompana-a-tus-recetas-favoritas/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F04%2Fla-historia-que-acompana-a-tus-recetas-favoritas%2F&title=La%20historia%20que%20acompa%C3%B1a%20a%20tus%20recetas%20favoritas
+14:04:43	Warning: 	Found for https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=facebook
+14:04:43	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F02%2Fformas-de-conseguir-clientes-para-tu-negocio-de-diseno-web%2F&t=Formas%20de%20conseguir%20clientes%20para%20tu%20negocio%20de%20dise%C3%B1o%20web%3A%2012%20estrategias%20que%20funcionan
+14:04:43	Warning: 	Found for https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=twitter
+14:04:43	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Formas%20de%20conseguir%20clientes%20para%20tu%20negocio%20de%20dise%C3%B1o%20web%3A%2012%20estrategias%20que%20funcionan&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F02%2Fformas-de-conseguir-clientes-para-tu-negocio-de-diseno-web%2F
+14:04:43	Warning: 	Found for https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=email
+14:04:43	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=email to https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?shared=email&msg=fail
+14:04:45	Warning: 	Found for https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=reddit
+14:04:45	Warning: 	File has moved from https://wordpress.com/es/blog/2024/12/02/formas-de-conseguir-clientes-para-tu-negocio-de-diseno-web/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F12%2F02%2Fformas-de-conseguir-clientes-para-tu-negocio-de-diseno-web%2F&title=Formas%20de%20conseguir%20clientes%20para%20tu%20negocio%20de%20dise%C3%B1o%20web%3A%2012%20estrategias%20que%20funcionan
+14:04:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/uli-1019-0234.jpg (from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/)
+14:04:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/uli-1019-0257.jpg (from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/)
+14:04:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/uli-1019-0128.jpg (from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/)
+14:04:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/uli-1019-0094.jpg (from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/)
+14:04:45	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/padel-2.jpeg (from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/)
+14:04:45	Warning: 	Found for https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=facebook
+14:04:45	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F29%2Fautomattic-en-el-corazon-de-la-trgcon24%2F&t=Automattic%20en%20el%20coraz%C3%B3n%20de%20la%20TRGCON24%C2%A0
+14:04:45	Warning: 	Found for https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=twitter
+14:04:45	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Automattic%20en%20el%20coraz%C3%B3n%20de%20la%20TRGCON24%C2%A0&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F29%2Fautomattic-en-el-corazon-de-la-trgcon24%2F
+14:04:45	Warning: 	Found for https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=email
+14:04:45	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=email to https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?shared=email&msg=fail
+14:04:47	Warning: 	Found for https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=reddit
+14:04:47	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/29/automattic-en-el-corazon-de-la-trgcon24/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F29%2Fautomattic-en-el-corazon-de-la-trgcon24%2F&title=Automattic%20en%20el%20coraz%C3%B3n%20de%20la%20TRGCON24%C2%A0
+14:04:47	Warning: 	Moved Permanently for https://wordpress.com/es/pricing/black-friday-2024/?ref=blog
+14:04:47	Warning: 	File has moved from https://wordpress.com/es/pricing/black-friday-2024/?ref=blog to /pricing/
+14:04:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/build-your-site-with-wordpress-3-1.webp (from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/)
+14:04:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/build-your-site-with-wordpress-2-1.webp (from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/)
+14:04:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/build-your-site-with-wordpress-4-1.webp (from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/)
+14:04:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/blog/wp-content/uploads/2024/11/build-your-site-with-wordpress-1.webp (from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/)
+14:05:02	Warning: 	Found for https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=facebook
+14:05:02	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F28%2Faprovecha-black-friday-y-lanza-tu-web-con-wordpress-com%2F&t=Aprovecha%20Black%20Friday%20y%20lanza%20tu%20web%20con%20WordPress.com
+14:05:02	Warning: 	Found for https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=twitter
+14:05:02	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=Aprovecha%20Black%20Friday%20y%20lanza%20tu%20web%20con%20WordPress.com&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F28%2Faprovecha-black-friday-y-lanza-tu-web-con-wordpress-com%2F
+14:05:02	Warning: 	Found for https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=email
+14:05:02	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=email to https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?shared=email&msg=fail
+14:05:02	Warning: 	Found for https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=reddit
+14:05:02	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/28/aprovecha-black-friday-y-lanza-tu-web-con-wordpress-com/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F28%2Faprovecha-black-friday-y-lanza-tu-web-con-wordpress-com%2F&title=Aprovecha%20Black%20Friday%20y%20lanza%20tu%20web%20con%20WordPress.com
+14:05:20	Warning: 	Found for https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=facebook
+14:05:20	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F20%2Fque-es-php%2F&t=%C2%BFQu%C3%A9%20es%20PHP%3F%20Una%20explicaci%C3%B3n%20completa%20para%20principiantes
+14:05:20	Warning: 	Found for https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=twitter
+14:05:20	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=%C2%BFQu%C3%A9%20es%20PHP%3F%20Una%20explicaci%C3%B3n%20completa%20para%20principiantes&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F20%2Fque-es-php%2F
+14:05:20	Warning: 	Found for https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=email
+14:05:20	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=email to https://wordpress.com/es/blog/2024/11/20/que-es-php/?shared=email&msg=fail
+14:05:20	Warning: 	Found for https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=reddit
+14:05:20	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/20/que-es-php/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F20%2Fque-es-php%2F&title=%C2%BFQu%C3%A9%20es%20PHP%3F%20Una%20explicaci%C3%B3n%20completa%20para%20principiantes
+14:05:29	Warning: 	Found for https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=facebook
+14:05:29	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=facebook to https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F18%2Fprueba-velocidad-wordpress%2F&t=%C2%BFTu%20web%20de%20WordPress%20va%20lenta%3F%20Prueba%20nuestra%20herramienta%20gratuita%20para%20medir%20la%20velocidad%20de%20tu%20sitio
+14:05:29	Warning: 	Found for https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=twitter
+14:05:29	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=twitter to https://twitter.com/intent/tweet?via=eswordpresscom&related=wordpressdotcom&text=%C2%BFTu%20web%20de%20WordPress%20va%20lenta%3F%20Prueba%20nuestra%20herramienta%20gratuita%20para%20medir%20la%20velocidad%20de%20tu%20sitio&url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F18%2Fprueba-velocidad-wordpress%2F
+14:05:29	Warning: 	Found for https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=email
+14:05:29	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=email to https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?shared=email&msg=fail
+14:05:29	Warning: 	Found for https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=reddit
+14:05:29	Warning: 	File has moved from https://wordpress.com/es/blog/2024/11/18/prueba-velocidad-wordpress/?share=reddit to https://reddit.com/submit?url=https%3A%2F%2Fwordpress.com%2Fes%2Fblog%2F2024%2F11%2F18%2Fprueba-velocidad-wordpress%2F&title=%C2%BFTu%20web%20de%20WordPress%20va%20lenta%3F%20Prueba%20nuestra%20herramienta%20gratuita%20para%20medir%20la%20velocidad%20de%20tu%20sitio
+14:45:33	Warning: 	Moved Permanently for https://wordpress.com/es/support/sitemaps/
+14:45:33	Warning: 	File has moved from https://wordpress.com/es/support/sitemaps/ to https://wordpress.com/es/support/mapas-del-sitio/
+14:45:33	Warning: 	Found for https://wordpress.com/es/go/marketing-digital/como-crear-contenido-atractivo-para-los-motores-de-busqueda/
+14:45:33	Warning: 	File has moved from https://wordpress.com/es/go/marketing-digital/como-crear-contenido-atractivo-para-los-motores-de-busqueda/ to https://wordpress.com/es/go/tutoriales/consejos-de-seo-para-principiantes-en-wordpress-com/
+14:45:35	Warning: 	Moved Permanently for https://wordpress.com/es/support/menus/create-a-menu/
+14:45:35	Warning: 	File has moved from https://wordpress.com/es/support/menus/create-a-menu/ to https://wordpress.com/es/support/menus/crear-un-menu/
+14:45:56	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/shortcode-block/
+14:45:56	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/shortcode-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-shortcodes/
+14:46:07	Error: 	"Not Found" (404) at link https://wordpress.com/es/go/creacion-de-webs/como-crear-una-web-de-noticias-todo-lo-que-necesitas-saber/ (from https://wordpress.com/es/go/creacion-de-webs/como-crear-una-web-de-noticias/)
+14:47:16	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/archives-block/
+14:47:16	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/archives-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-archivos/
+14:48:11	Warning: 	Moved Permanently for https://wordpress.com/es/go/construccion-de-sitios/tipos-de-web/
+14:48:11	Warning: 	File has moved from https://wordpress.com/es/go/construccion-de-sitios/tipos-de-web/ to https://wordpress.com/es/go/creacion-de-webs/tipos-de-web/
+14:48:11	Warning: 	Moved Permanently for https://wordpress.com/es/go/contenido-y-blogging/promocion-de-contenido-comparte-tu-blog-con-las-masas/
+14:48:11	Warning: 	File has moved from https://wordpress.com/es/go/contenido-y-blogging/promocion-de-contenido-comparte-tu-blog-con-las-masas/ to https://wordpress.com/es/go/marketing-digital/10-formas-de-promocionar-tu-pagina-web-de-manera-gratuita/
+14:48:17	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/cover-block/
+14:48:17	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/cover-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-fondo/
+14:48:26	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/map-block/
+14:48:26	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/map-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-mapas/
+14:48:30	Warning: 	Moved Permanently for https://wordpress.com/es/support/portfolios/
+14:48:30	Warning: 	File has moved from https://wordpress.com/es/support/portfolios/ to https://wordpress.com/es/support/portafolios/
+14:48:30	Warning: 	Found for https://wordpress.com/es/go/contenido-y-blogging/como-crear-un-portafolio-web-desde-cero/
+14:48:30	Warning: 	File has moved from https://wordpress.com/es/go/contenido-y-blogging/como-crear-un-portafolio-web-desde-cero/ to https://wordpress.com/es/go/creacion-de-webs/guia-completa-para-crear-un-portafolio-digital/
+14:49:16	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/increase-your-site-traffic/ (from https://wordpress.com/es/go/marketing-digital/como-comprobar-el-ranking-de-palabras-clave-de-tu-contenido/)
+14:49:51	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/add-media/ (from https://wordpress.com/es/go/tutoriales/como-crear-un-vlog-con-wordpress-com/)
+14:50:03	Warning: 	Moved Permanently for https://wordpress.com/es/features/?ref=es-go
+14:50:03	Warning: 	File has moved from https://wordpress.com/es/features/?ref=es-go to https://wordpress.com/es/funciones/
+14:50:07	Warning: 	Moved Permanently for https://wordpress.com/es/go/marketing-digital/wordpress-payment-plugins/
+14:50:07	Warning: 	File has moved from https://wordpress.com/es/go/marketing-digital/wordpress-payment-plugins/ to https://wordpress.com/es/go/marketing-digital/wordpress-plugins-de-pago/
+14:51:18	Warning: 	Moved Permanently for https://wordpress.com/es/business/
+14:51:18	Warning: 	File has moved from https://wordpress.com/es/business/ to https://wordpress.com/es/empresa/
+14:51:36	Warning: 	Moved Permanently for https://wordpress.com/es/go/contenido-blogging/flujo-de-trabajo-editorial/
+14:51:36	Warning: 	File has moved from https://wordpress.com/es/go/contenido-blogging/flujo-de-trabajo-editorial/ to https://wordpress.com/es/go/contenido-y-blogging/flujo-de-trabajo-editorial/
+14:51:38	Error: 	"Not Found" (404) at link https://wordpress.com/es/go/wp-content/uploads/2021/08/programar.png (from https://wordpress.com/es/go/contenido-y-blogging/flujo-de-trabajo-editorial/)
+14:51:38	Error: 	"Not Found" (404) at link https://wordpress.com/es/go/wp-content/uploads/2021/08/yoast-es.png (from https://wordpress.com/es/go/contenido-y-blogging/flujo-de-trabajo-editorial/)
+14:54:39	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/users/efimerart18/ (from https://wordpress.com/es/forums/view/no-replies/)
+14:58:09	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/users/manueldiaz1000/ (from https://wordpress.com/es/forums/view/support-forum-mu/)
+14:58:28	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/users/akuxeywna9/ (from https://wordpress.com/es/forums/view/support-forum-mu/)
+15:08:43	Warning: 	Found for https://wordpress.com/es/support/vaciar-sitio/
+15:08:43	Warning: 	File has moved from https://wordpress.com/es/support/vaciar-sitio/ to https://wordpress.com/es/support/restablece-tu-sitio/
+15:08:45	Warning: 	Moved Permanently for https://wordpress.com/es/support/mover-tu-dominio/transferencia-de-dominio-entrante/
+15:08:45	Warning: 	File has moved from https://wordpress.com/es/support/mover-tu-dominio/transferencia-de-dominio-entrante/ to https://wordpress.com/es/support/dominios/transferencia-de-dominio-entrante/
+15:13:39	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/users/cristinasanchezgonzalez/topics/ (from https://wordpress.com/es/forums/users/cristinasanchezgonzalez/)
+15:13:40	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/users/cristinasanchezgonzalez/replies/ (from https://wordpress.com/es/forums/users/cristinasanchezgonzalez/)
+15:17:40	Warning: 	Moved Permanently for https://wordpress.com/es/forums/2/
+15:17:40	Warning: 	File has moved from https://wordpress.com/es/forums/2/ to https://wordpress.com/es/forums/topic/2-albumes-de-fotos-en-una-misma-entrada/
+15:19:09	Warning: 	Moved Permanently for https://wordpress.com/es/forums/3/
+15:19:09	Warning: 	File has moved from https://wordpress.com/es/forums/3/ to https://wordpress.com/es/forums/topic/3-2-1-el-viernes-pasamos-a-27/
+15:20:38	Error: 	"Not Found" (404) at link https://wordpress.com/es/forums/2861/ (from https://wordpress.com/es/forums/page/2861/)
+15:21:44	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/payment-methods-paypal/ (from https://wordpress.com/es/support/pago/)
+15:21:46	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/payment-methods-apple-pay-and-google-pay/ (from https://wordpress.com/es/support/pago/)
+15:21:47	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/user-roles/ (from https://wordpress.com/es/support/pago/)
+15:21:47	Warning: 	Moved Permanently for https://wordpress.com/es/support/invite-people/
+15:21:47	Warning: 	File has moved from https://wordpress.com/es/support/invite-people/ to https://wordpress.com/es/support/invitar-personas/
+15:21:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/account-settings/
+15:21:52	Warning: 	File has moved from https://wordpress.com/es/support/account-settings/ to https://wordpress.com/es/support/ajustes-de-la-cuenta/
+15:21:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/cancel-refund-a-domain/
+15:21:52	Warning: 	File has moved from https://wordpress.com/es/support/domains/cancel-refund-a-domain/ to https://wordpress.com/es/support/dominios/cancelar-y-reembolsar-un-dominio/
+15:21:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/help-support-options/
+15:21:52	Warning: 	File has moved from https://wordpress.com/es/support/help-support-options/ to https://wordpress.com/es/support/opciones-de-soporte-de-ayuda/
+15:21:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/transfer-domain-registration/
+15:21:52	Warning: 	File has moved from https://wordpress.com/es/support/domains/transfer-domain-registration/ to https://wordpress.com/es/support/dominios/transferir-un-dominio-a-otro-registrador/
+15:21:52	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/private-domain-registration/ (from https://wordpress.com/es/support/dominios/actualizar-informacion-contacto/)
+15:21:52	Warning: 	Moved Permanently for https://wordpress.com/es/support/invite-people/user-roles/
+15:21:52	Warning: 	File has moved from https://wordpress.com/es/support/invite-people/user-roles/ to https://wordpress.com/es/support/roles-usuario/
+15:22:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/help/contact (from https://wordpress.com/es/go/creacion-de-webs/diferencia-entre-wordpress-com-y-wordpress-org/)
+15:22:15	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/tutorials/decision-guide-to-build-a-membership-website/ (from https://wordpress.com/es/go/creacion-de-webs/diferencia-entre-wordpress-com-y-wordpress-org/)
+15:22:23	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/?page_id=11 (from https://wordpress.com/es/support/contact/?ref=move-lp)
+15:22:24	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/?page_id=43 (from https://wordpress.com/es/support/contact/?ref=move-lp)
+15:22:24	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/?page_id=1692 (from https://wordpress.com/es/support/contact/?ref=move-lp)
+15:22:27	Error: 	"Not Found" (404) at link https://wordpress.com/es/email/ (from https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/)
+15:22:27	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/adding-professional-email-to-your-site/
+15:22:27	Warning: 	File has moved from https://wordpress.com/es/support/add-email/adding-professional-email-to-your-site/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-correo-electronico-con-la-tecnologia-de-titan-a-tu-sitio/
+15:22:27	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/add-email-through-google-workspace/
+15:22:27	Warning: 	File has moved from https://wordpress.com/es/support/add-email/add-email-through-google-workspace/ to https://wordpress.com/es/support/anadir-un-correo-electronico-con-una-cuenta-de-g-suite-existente/
+15:22:27	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/email-forwarding/
+15:22:27	Warning: 	File has moved from https://wordpress.com/es/support/add-email/email-forwarding/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/reenvio-correo-electronico/
+15:22:27	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-email/add-email-through-office-365/
+15:22:27	Warning: 	File has moved from https://wordpress.com/es/support/add-email/add-email-through-office-365/ to https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-correo-electronico-a-traves-de-office-365/
+15:22:28	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/add-email/add-email-through-zoho-mail/ (from https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/)
+15:22:28	Error: 	"Not Found" (404) at link https://en.support.wordpress.com/wp-content/uploads/2022/04https:/wordpress.com/es/support/dominios/registrar-dominio-button.png?w=665 (from https://wordpress.com/es/support/dominios/registrar-dominio/)
+15:22:28	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/anade-un-servicio-de-correo-electronico/anadir-g-suite-a-tu-sitio/ (from https://wordpress.com/es/support/dominios/registrar-dominio/)
+15:22:28	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/incoming-domain-transfer/ (from https://wordpress.com/es/support/dominios/registrar-dominio/)
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/domain-registrations-and-privacy/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/domains/domain-registrations-and-privacy/ to https://wordpress.com/es/support/dominios/registros-de-dominio-y-privacidad/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/add-ons/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/add-ons/ to https://wordpress.com/es/support/complementos/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/manage-purchases/cancel-a-purchase/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/manage-purchases/cancel-a-purchase/ to https://wordpress.com/es/support/gestionar-compras/cancela-una-compra/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/refunds/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/refunds/ to https://wordpress.com/es/support/reembolsos/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/manage-purchases/automatic-renewal/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/manage-purchases/automatic-renewal/ to https://wordpress.com/es/support/gestionar-compras/renovacion-automatica/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/manage-purchases/downgrade-your-plan/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/manage-purchases/downgrade-your-plan/ to https://wordpress.com/es/support/gestionar-compras/cambio-del-plan-a-una-version-inferior/
+15:22:28	Warning: 	Moved Permanently for https://wordpress.com/es/support/manage-purchases/change-your-payment-frequency/
+15:22:28	Warning: 	File has moved from https://wordpress.com/es/support/manage-purchases/change-your-payment-frequency/ to https://wordpress.com/es/support/gestionar-compras/cambia-frecuencia-pagos/
+15:22:36	Warning: 	Moved Permanently for https://wordpress.com/es/support/domains/change-name-servers/
+15:22:36	Warning: 	File has moved from https://wordpress.com/es/support/domains/change-name-servers/ to https://wordpress.com/es/support/dominios/cambia-los-servidores-dns/
+15:22:36	Warning: 	Moved Permanently for https://wordpress.com/es/go/diseno-web/como-elegir-un-nombre-de-dominio-en-3-pasos/
+15:22:36	Warning: 	File has moved from https://wordpress.com/es/go/diseno-web/como-elegir-un-nombre-de-dominio-en-3-pasos/ to https://wordpress.com/es/go/dominios/como-elegir-un-nombre-de-dominio-adecuado-para-tu-sitio-web/
+15:22:36	Warning: 	Moved Permanently for https://wordpress.com/es/go/dominios/como-elegir-un-nombre-de-dominio-adecuado-para-tu-sitio-web/
+15:22:36	Warning: 	File has moved from https://wordpress.com/es/go/dominios/como-elegir-un-nombre-de-dominio-adecuado-para-tu-sitio-web/ to https://wordpress.com/es/go/marketing-digital/como-elegir-un-nombre-de-dominio-adecuado-para-tu-sitio-web/
+15:23:12	Warning: 	Moved Permanently for https://wordpress.com/es/support/pagos-simples/
+15:23:12	Warning: 	File has moved from https://wordpress.com/es/support/pagos-simples/ to https://wordpress.com/es/support/editor-wordpress/bloques/paga-con-paypal/
+15:23:18	Error: 	"Not Found" (404) at link https://en.support.wordpress.com/wp-content/uploads/2021/09https:/wordpress.com/es/support/paga-con-paypal-add-from-block-inserter.png?w=904 (from https://wordpress.com/es/support/editor-wordpress/bloques/paga-con-paypal/)
+15:23:18	Error: 	"Not Found" (404) at link https://en.support.wordpress.com/wp-content/uploads/2021/09https:/wordpress.com/es/support/paga-con-paypal-add-block.gif?w=600 (from https://wordpress.com/es/support/editor-wordpress/bloques/paga-con-paypal/)
+15:23:18	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/images/flickr-photos/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/)
+15:23:20	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/youtube-block/
+15:23:20	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/youtube-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-youtube/
+15:23:20	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/soundcloud-audio-player/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/)
+15:23:21	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/audio/spotify/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/)
+15:23:21	Warning: 	Moved Permanently for https://wordpress.com/es/support/forms/polls/
+15:23:21	Warning: 	File has moved from https://wordpress.com/es/support/forms/polls/ to https://wordpress.com/es/support/formularios/encuestas/
+15:23:21	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/issuu-embeds/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/)
+15:23:21	Error: 	"Not Found" (404) at link https://wordpress.com/es/support/slideshare/ (from https://wordpress.com/es/support/editor-wordpress/bloques/bloque-de-incrustar/)
+15:23:21	Warning: 	Moved Permanently for https://wordpress.com/es/support/wordpress-editor/blocks/custom-html-block/
+15:23:21	Warning: 	File has moved from https://wordpress.com/es/support/wordpress-editor/blocks/custom-html-block/ to https://wordpress.com/es/support/editor-wordpress/bloques/bloque-html-personalizado/
+15:23:21	Warning: 	Moved Permanently for https://wordpress.com/es/support/advanced-block-settings/
+15:23:21	Warning: 	File has moved from https://wordpress.com/es/support/advanced-block-settings/ to https://wordpress.com/es/support/ajustes-avanzados-del-bloque/
+16:04:04	Warning: 	file not stored in cache due to bogus state (broken size, expected 11289793 got 10390808): https://es.blog.wordpress.com/wp-content/uploads/2022/11/creado-por-wordpress.com_.jpg
+16:04:57	Warning: 	Found for https://wordpress.com/es/blog/2022/10/31/wordpress-com-vs-wordpress-org-en-que-se-diferencian/
+16:04:57	Warning: 	File has moved from https://wordpress.com/es/blog/2022/10/31/wordpress-com-vs-wordpress-org-en-que-se-diferencian/ to https://wordpress.com/es/go/creacion-de-webs/diferencia-entre-wordpress-com-y-wordpress-org/
