@@ -1,0 +1,1 @@
+(function(){"use strict";document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("onWPEMigration",n=>{if(typeof gtag==="function"){gtag("event","conversion",{send_to:"AW-946162814/59yUCNG15tYZEP6YlcMD"})}})})})();

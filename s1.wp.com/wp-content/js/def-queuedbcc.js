@@ -1,0 +1,1 @@
+defQueue=window.defQueue||{items:[]};defQueue.add=function(e){defQueue.items.push(e)};defQueue.process=function(){defQueue.items.forEach(function(e){if("function"===typeof e)e()});defQueue.empty()};defQueue.empty=function(){defQueue.items=[]};defQueue.process();
