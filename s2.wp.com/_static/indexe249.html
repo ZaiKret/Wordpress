@@ -1,0 +1,63 @@
+!function(e){var o={};function n(t){if(o[t])return o[t].exports;var r=o[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=e,n.c=o,n.d=function(e,o,t){n.o(e,o)||Object.defineProperty(e,o,{enumerable:!0,get:t})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,o){if(1&o&&(e=n(e)),8&o)return e;if(4&o&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(n.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&o&&"string"!=typeof e)for(var r in e)n.d(t,r,function(o){return e[o]}.bind(null,r));return t},n.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(o,"a",o),o},n.o=function(e,o){return Object.prototype.hasOwnProperty.call(e,o)},n.p="",n(n.s=273)}({273:function(e,o){!function(){"use strict";let e,o;function n(e){return new Promise((o,n)=>{const t=document.createElement("script");t.onload=()=>o(),t.onerror=e=>n(e),t.src=e,document.body.appendChild(t)})}function t(){if(e)return e;const o=window.wpcom_coblocks_js;return e=n(o.coblocks_lightbox_js),e}function r(){if(o)return o;window.wpcomJQueryUsageLoggerDisabled=!0;const e=window.wpcom_coblocks_js,t=window.jQuery?Promise.resolve():n(e.jquery_core_js).then(()=>n(e.jquery_migrate_js)),r=t.then(()=>window.imagesLoaded?Promise.resolve():n(e.imagesloaded_js)),c=t.then(()=>window.Masonry?Promise.resolve():n(e.masonry_js)),u=Promise.all([t,r,c]).then(()=>n(e.coblocks_masonry_js));return o=u,o}function c(){document.querySelector(".wp-block-coblocks-gallery-masonry")&&r(),document.querySelector(".has-lightbox")&&t(),document.body.classList.contains("block-editor-page")&&(r(),t())}"loading"!==document.readyState?c():document.addEventListener("DOMContentLoaded",c)}()}});;
+/**
+ * Handles toggling the navigation menu for small screens.
+ */
+( function() {
+	var nav = document.querySelectorAll( '.wpcom-pages' )[0], button, menu, buttonVisible;
+	if ( ! nav ) {
+		return;
+	}
+
+	button = nav.getElementsByTagName( 'a' )[0];
+	menu   = nav.getElementsByTagName( 'ul' )[0];
+	if ( ! button ) {
+		return;
+	}
+
+	// Open menu when Menu button is clicked.
+	button.onclick = function( e) {
+		if ( -1 !== button.className.indexOf( 'toggled-on' ) ) {
+			button.className = button.className.replace( ' toggled-on', '' );
+			menu.className = menu.className.replace( ' toggled-on', '' );
+		} else {
+			button.className += ' toggled-on';
+			menu.className += ' toggled-on';
+		}
+		e.preventDefault();
+	};
+
+	// Handle both clicks and touch events.
+	document.body.onclick = function( e ) {
+		closeMenu( e );
+	};
+	document.body.ontouchstart = function( e ) {
+		closeMenu( e );
+	};
+
+	// When menu is open, close it with any click away from the menu.
+	var closeMenu = function( e ) {
+		if ( button === e.target ) {
+			return;
+		}
+
+		// Only continue if menu button is visible.
+		buttonVisible = window.getComputedStyle( button );
+		if ( 'none' === buttonVisible.getPropertyValue( 'display' ) ) {
+			return;
+		}
+
+		if ( ! menu.contains( e.target ) ) {
+			button.className = button.className.replace( ' toggled-on', '' );
+			menu.className = menu.className.replace( ' toggled-on', '' );
+		}
+
+		// If the click away from the menu was on something for which we should respond
+		// to a click, return rather than stopping propagation. Else the click doesn't work.
+		// This should run after the toggle code above so that the menu itself does close as expected.
+		if ( [ 'button', 'submit', 'a' ].indexOf( e.target.type ) !== -1 ) {
+			return;
+		}
+
+	}
+} )();
+;

@@ -1,0 +1,382 @@
+( function ( g ) {
+
+  var t = {
+      PLATFORM_WINDOWS: 'windows',
+      PLATFORM_IPHONE: 'iphone',
+      PLATFORM_IPOD: 'ipod',
+      PLATFORM_IPAD: 'ipad',
+      PLATFORM_BLACKBERRY: 'blackberry',
+      PLATFORM_BLACKBERRY_10: 'blackberry_10',
+      PLATFORM_SYMBIAN: 'symbian_series60',
+      PLATFORM_SYMBIAN_S40: 'symbian_series40',
+      PLATFORM_J2ME_MIDP: 'j2me_midp',
+      PLATFORM_ANDROID: 'android',
+      PLATFORM_ANDROID_TABLET: 'android_tablet',
+      PLATFORM_FIREFOX_OS: 'firefoxOS',
+      PLATFORM_MOBILE_GENERIC: 'mobile_generic',
+
+      userAgent : false, // Shortcut to the browser User Agent String.
+      matchedPlatformName : false, // Matched platform name. False otherwise.
+      matchedUserAgentName : false, // Matched UA String. False otherwise.
+
+      init: function() {
+        try {
+          t.userAgent = g.navigator.userAgent.toLowerCase();
+          t.getPlatformName();
+          t.getMobileUserAgentName();
+        }	catch ( e ) {
+          console.error( e );
+        }
+      },
+
+      initForTest: function( userAgent ) {
+        t.matchedPlatformName = false;
+        t.matchedUserAgentName = false;
+        try {
+          t.userAgent = userAgent.toLowerCase();
+          t.getPlatformName();
+          t.getMobileUserAgentName();
+        }	catch ( e ) {
+          console.error( e );
+        }
+      },
+
+      /**
+       * This method detects the mobile User Agent name.
+       */
+      getMobileUserAgentName: function() {
+        if ( t.matchedUserAgentName !== false )
+          return t.matchedUserAgentName;
+
+        if ( t.userAgent === false )
+          return false;
+
+        if ( t.isChromeForIOS() )
+          t.matchedUserAgentName = 'chrome-for-ios';
+        else if ( t.isTwitterForIpad() )
+          t.matchedUserAgentName =  'twitter-for-ipad';
+        else if ( t.isTwitterForIphone() )
+          t.matchedUserAgentName =  'twitter-for-iphone';
+        else if ( t.isIPhoneOrIPod() )
+          t.matchedUserAgentName = 'iphone';
+        else if ( t.isIPad() )
+          t.matchedUserAgentName = 'ipad';
+        else if ( t.isAndroidTablet() )
+          t.matchedUserAgentName = 'android_tablet';
+        else if ( t.isAndroid() )
+          t.matchedUserAgentName = 'android';
+        else if ( t.isBlackberry10() )
+          t.matchedUserAgentName = 'blackberry_10';
+        else if ( has( 'blackberry' ) )
+          t.matchedUserAgentName = 'blackberry';
+        else if ( t.isBlackberryTablet() )
+          t.matchedUserAgentName = 'blackberry_tablet';
+        else if ( t.isWindowsPhone7() )
+          t.matchedUserAgentName = 'win7';
+        else if ( t.isWindowsPhone8() )
+          t.matchedUserAgentName = 'winphone8';
+        else if ( t.isOperaMini() )
+          t.matchedUserAgentName = 'opera-mini';
+        else if ( t.isOperaMobile() )
+          t.matchedUserAgentName = 'opera-mobi';
+        else if ( t.isKindleFire() )
+          t.matchedUserAgentName = 'kindle-fire';
+        else if ( t.isSymbianPlatform() )
+          t.matchedUserAgentName = 'series60';
+        else if ( t.isFirefoxMobile() )
+          t.matchedUserAgentName = 'firefox_mobile';
+        else if ( t.isFirefoxOS() )
+          t.matchedUserAgentName = 'firefoxOS';
+        else if ( t.isFacebookForIphone() )
+          t.matchedUserAgentName = 'facebook-for-iphone';
+        else if ( t.isFacebookForIpad() )
+          t.matchedUserAgentName = 'facebook-for-ipad';
+        else if ( t.isWordPressForIos() )
+          t.matchedUserAgentName = 'ios-app';
+        else if ( has( 'iphone' ) )
+          t.matchedUserAgentName = 'iphone-unknown';
+        else if ( has( 'ipad' ) )
+          t.matchedUserAgentName = 'ipad-unknown';
+
+        return t.matchedUserAgentName;
+      },
+
+      /**
+       * This method detects the mobile platform name.
+       */
+      getPlatformName : function() {
+        if ( t.matchedPlatformName !== false )
+          return t.matchedPlatformName;
+
+        if ( t.userAgent === false )
+          return false;
+
+        if ( has( 'windows ce' ) || has( 'windows phone' ) ) {
+          t.matchedPlatformName = t.PLATFORM_WINDOWS;
+        } else if ( has( 'ipad' ) ) {
+          t.matchedPlatformName = t.PLATFORM_IPAD;
+        } else if ( has( 'ipod' ) ) {
+          t.matchedPlatformName = t.PLATFORM_IPOD;
+        } else if ( has( 'iphone' ) ) {
+          t.matchedPlatformName = t.PLATFORM_IPHONE;
+        } else if ( has( 'android' ) ) {
+          if ( t.isAndroidTablet() )
+            t.matchedPlatformName = t.PLATFORM_ANDROID_TABLET;
+          else
+            t.matchedPlatformName = t.PLATFORM_ANDROID;
+        } else if ( t.isKindleFire() ) {
+          t.matchedPlatformName = t.PLATFORM_ANDROID_TABLET;
+        } else if ( t.isBlackberry10() ) {
+          t.matchedPlatformName = t.PLATFORM_BLACKBERRY_10;
+        } else if ( has( 'blackberry' ) ) {
+          t.matchedPlatformName = t.PLATFORM_BLACKBERRY;
+        } else if ( t.isBlackberryTablet() ) {
+          t.matchedPlatformName = t.PLATFORM_BLACKBERRY;
+        } else if ( t.isSymbianPlatform() ) {
+          t.matchedPlatformName = t.PLATFORM_SYMBIAN;
+        } else if ( t.isSymbianS40Platform() ) {
+          t.matchedPlatformName = t.PLATFORM_SYMBIAN_S40;
+        } else if ( t.isJ2MEPlatform() ) {
+          t.matchedPlatformName = t.PLATFORM_J2ME_MIDP;
+        } else if ( t.isFirefoxOS() ) {
+          t.matchedPlatformName = t.PLATFORM_FIREFOX_OS;
+        } else if ( t.isFirefoxMobile() ) {
+          t.matchedPlatformName = t.PLATFORM_MOBILE_GENERIC;
+        }
+
+        return t.matchedPlatformName;
+      },
+
+
+      /**
+       * Detect the BlackBerry OS version.
+       *
+       * Note: This is for smartphones only. Does not work on BB tablets.
+       */
+      getBlackBerryOSVersion : check( function() {
+        if ( t.isBlackberry10() )
+          return '10';
+
+        if ( ! has( 'blackberry' ) )
+          return false;
+
+        var rv = -1; // Return value assumes failure.
+        var re;
+
+        if ( has( 'webkit' ) ) { // Detecting the BB OS version for devices running OS 6.0 or higher
+          re = /Version\/([\d\.]+)/i;
+        } else {
+          // BlackBerry devices <= 5.XX
+          re = /BlackBerry\w+\/([\d\.]+)/i;
+        }
+        if ( re.exec( t.userAgent ) != null )
+          rv =  RegExp.$1.toString();
+
+        return rv === -1 ? false : rv;
+      } ),
+
+      /**
+       * Detects if the current UA is iPhone Mobile Safari or another iPhone or iPod Touch Browser.
+       */
+      isIPhoneOrIPod : check( function() {
+        return has( 'safari' ) && ( has( 'iphone' ) || has( 'ipod' ) );
+      } ),
+
+      /**
+       * Detects if the current device is an iPad.
+       */
+      isIPad : check( function() {
+        return has( 'ipad' ) && has( 'safari' );
+      } ),
+
+
+      /**
+      *  Detects if the current UA is Chrome for iOS
+      */
+      isChromeForIOS : check( function() {
+        return t.isIPhoneOrIPod() && has( 'crios/' );
+      } ),
+
+      /**
+       * Detects if the current browser is the Native Android browser.
+       */
+      isAndroid : check( function() {
+        if ( has( 'android' ) ) {
+          return ! ( t.isOperaMini() || t.isOperaMobile() || t.isFirefoxMobile() );
+        }
+      } ),
+
+      /**
+       * Detects if the current browser is the Native Android Tablet browser.
+       */
+       isAndroidTablet : check( function() {
+        if ( has( 'android' ) && ! has( 'mobile' ) ) {
+          return ! ( t.isOperaMini() || t.isOperaMobile() || t.isFirefoxMobile() );
+        }
+      } ),
+
+
+      /**
+       * Detects if the current browser is Opera Mobile
+       */
+      isOperaMobile : check( function() {
+        return has( 'opera' ) && has( 'mobi' );
+      } ),
+
+      /**
+       * Detects if the current browser is Opera Mini
+       */
+      isOperaMini : check( function() {
+        return has( 'opera' ) && has( 'mini' );
+      } ),
+
+
+      /**
+       * isBlackberry10() can be used to check the User Agent for a BlackBerry 10 device.
+       */
+      isBlackberry10 : check( function() {
+        return has( 'bb10' ) && has( 'mobile' );
+      } ),
+
+      /**
+       * isBlackberryTablet() can be used to check the User Agent for a RIM blackberry tablet
+       */
+      isBlackberryTablet : check( function() {
+        return has( 'playbook' ) && has( 'rim tablet' );
+      } ),
+
+      /**
+       * Detects if the current browser is a Windows Phone 7 device.
+       */
+      isWindowsPhone7 : check( function () {
+        return has( 'windows phone os 7' );
+      } ),
+
+      /**
+       * Detects if the current browser is a Windows Phone 8 device.
+       */
+      isWindowsPhone8 : check( function () {
+        return has( 'windows phone 8' );
+      } ),
+
+      /**
+       * Detects if the device platform is J2ME.
+       */
+      isJ2MEPlatform : check( function () {
+        return has( 'j2me/midp' ) || ( has( 'midp' ) && has( 'cldc' ) );
+      } ),
+
+
+      /**
+       * Detects if the device platform is the Symbian Series 40.
+       */
+      isSymbianS40Platform : check( function() {
+        if ( has( 'series40' ) ) {
+          return has( 'nokia' ) || has( 'ovibrowser' ) || has( 'nokiabrowser' );
+        }
+      } ),
+
+
+      /**
+       * Detects if the device platform is the Symbian Series 60.
+       */
+      isSymbianPlatform : check( function() {
+        if ( has( 'webkit' ) ) {
+          // First, test for WebKit, then make sure it's either Symbian or S60.
+          return has( 'symbian' ) || has( 'series60' );
+        } else if ( has( 'symbianos' ) && has( 'series60' ) ) {
+          return true;
+        } else if ( has( 'nokia' ) && has( 'series60' ) ) {
+          return true;
+        } else if ( has( 'opera mini' ) ) {
+          return has( 'symbianos' ) || has( 'symbos' ) || has( 'series 60' );
+        }
+      } ),
+
+
+      /**
+       * Detects if the current browser is the Kindle Fire Native browser.
+       */
+      isKindleFire : check( function() {
+        return has( 'silk/' ) && has( 'silk-accelerated=' );
+      } ),
+
+      /**
+       * Detects if the current browser is Firefox Mobile (Fennec)
+       */
+      isFirefoxMobile : check( function() {
+        return has( 'fennec' );
+      } ),
+
+
+      /**
+       * Detects if the current browser is the native FirefoxOS browser
+       */
+      isFirefoxOS : check( function() {
+        return has( 'mozilla' ) && has( 'mobile' ) && has( 'gecko' ) && has( 'firefox' );
+      } ),
+
+
+      /**
+       * Detects if the current UA is Facebook for iPad
+       */
+      isFacebookForIpad : check( function() {
+        if ( ! has( 'ipad' ) )
+          return false;
+
+        return has( 'facebook' ) || has( 'fbforiphone' ) || has( 'fban/fbios;' );
+      } ),
+
+      /**
+       * Detects if the current UA is Facebook for iPhone
+       */
+      isFacebookForIphone : check( function() {
+        if ( ! has( 'iphone' ) )
+          return false;
+
+        return ( has( 'facebook' ) && ! has( 'ipad' ) ) ||
+          ( has( 'fbforiphone' ) && ! has( 'tablet' ) ) ||
+          ( has( 'fban/fbios;' ) && ! has( 'tablet' ) ); // FB app v5.0 or higher
+      } ),
+
+      /**
+       * Detects if the current UA is Twitter for iPhone
+       */
+      isTwitterForIphone : check( function() {
+        if ( has( 'ipad' ) )
+          return false;
+
+        return has( 'twitter for iphone' );
+      } ),
+
+      /**
+       * Detects if the current UA is Twitter for iPad
+       */
+      isTwitterForIpad : check( function() {
+        return has( 'twitter for ipad' ) || ( has( 'ipad' ) && has( 'twitter for iphone' ) );
+      } ),
+
+
+      /**
+       * Detects if the current UA is WordPress for iOS
+       */
+      isWordPressForIos : check( function() {
+        return has( 'wp-iphone' );
+      } )
+  };
+
+  function has( str ) {
+    return t.userAgent.indexOf( str ) != -1;
+  }
+
+  function check( fn ) {
+    return function() {
+      return t.userAgent === false ? false : fn() || false;
+    }
+  }
+
+  g.wpcom_mobile_user_agent_info = t;
+
+} )( typeof window !== 'undefined' ? window : this );
+;
+(()=>{var e={477:function(e){e.exports=function(e){function r(t){if(n[t])return n[t].exports;var o=n[t]={i:t,l:!1,exports:{}};return e[t].call(o.exports,o,o.exports,r),o.l=!0,o.exports}var n={};return r.m=e,r.c=n,r.i=function(e){return e},r.d=function(e,n,t){r.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:t})},r.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(n,"a",n),n},r.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},r.p="",r(r.s=1)}([function(e,r,n){"use strict";function t(e,r){if(!(e instanceof r))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(r,"__esModule",{value:!0});var o=function(){function e(e,r){for(var n=0;n<r.length;n++){var t=r[n];t.enumerable=t.enumerable||!1,t.configurable=!0,"value"in t&&(t.writable=!0),Object.defineProperty(e,t.key,t)}}return function(r,n,t){return n&&e(r.prototype,n),t&&e(r,t),r}}(),a=function(){function e(){t(this,e)}return o(e,null,[{key:"hash",value:function(r){return e.hex(e.md51(r))}},{key:"md5cycle",value:function(r,n){var t=r[0],o=r[1],a=r[2],i=r[3];t=e.ff(t,o,a,i,n[0],7,-680876936),i=e.ff(i,t,o,a,n[1],12,-389564586),a=e.ff(a,i,t,o,n[2],17,606105819),o=e.ff(o,a,i,t,n[3],22,-1044525330),t=e.ff(t,o,a,i,n[4],7,-176418897),i=e.ff(i,t,o,a,n[5],12,1200080426),a=e.ff(a,i,t,o,n[6],17,-1473231341),o=e.ff(o,a,i,t,n[7],22,-45705983),t=e.ff(t,o,a,i,n[8],7,1770035416),i=e.ff(i,t,o,a,n[9],12,-1958414417),a=e.ff(a,i,t,o,n[10],17,-42063),o=e.ff(o,a,i,t,n[11],22,-1990404162),t=e.ff(t,o,a,i,n[12],7,1804603682),i=e.ff(i,t,o,a,n[13],12,-40341101),a=e.ff(a,i,t,o,n[14],17,-1502002290),o=e.ff(o,a,i,t,n[15],22,1236535329),t=e.gg(t,o,a,i,n[1],5,-165796510),i=e.gg(i,t,o,a,n[6],9,-1069501632),a=e.gg(a,i,t,o,n[11],14,643717713),o=e.gg(o,a,i,t,n[0],20,-373897302),t=e.gg(t,o,a,i,n[5],5,-701558691),i=e.gg(i,t,o,a,n[10],9,38016083),a=e.gg(a,i,t,o,n[15],14,-660478335),o=e.gg(o,a,i,t,n[4],20,-405537848),t=e.gg(t,o,a,i,n[9],5,568446438),i=e.gg(i,t,o,a,n[14],9,-1019803690),a=e.gg(a,i,t,o,n[3],14,-187363961),o=e.gg(o,a,i,t,n[8],20,1163531501),t=e.gg(t,o,a,i,n[13],5,-1444681467),i=e.gg(i,t,o,a,n[2],9,-51403784),a=e.gg(a,i,t,o,n[7],14,1735328473),o=e.gg(o,a,i,t,n[12],20,-1926607734),t=e.hh(t,o,a,i,n[5],4,-378558),i=e.hh(i,t,o,a,n[8],11,-2022574463),a=e.hh(a,i,t,o,n[11],16,1839030562),o=e.hh(o,a,i,t,n[14],23,-35309556),t=e.hh(t,o,a,i,n[1],4,-1530992060),i=e.hh(i,t,o,a,n[4],11,1272893353),a=e.hh(a,i,t,o,n[7],16,-155497632),o=e.hh(o,a,i,t,n[10],23,-1094730640),t=e.hh(t,o,a,i,n[13],4,681279174),i=e.hh(i,t,o,a,n[0],11,-358537222),a=e.hh(a,i,t,o,n[3],16,-722521979),o=e.hh(o,a,i,t,n[6],23,76029189),t=e.hh(t,o,a,i,n[9],4,-640364487),i=e.hh(i,t,o,a,n[12],11,-421815835),a=e.hh(a,i,t,o,n[15],16,530742520),o=e.hh(o,a,i,t,n[2],23,-995338651),t=e.ii(t,o,a,i,n[0],6,-198630844),i=e.ii(i,t,o,a,n[7],10,1126891415),a=e.ii(a,i,t,o,n[14],15,-1416354905),o=e.ii(o,a,i,t,n[5],21,-57434055),t=e.ii(t,o,a,i,n[12],6,1700485571),i=e.ii(i,t,o,a,n[3],10,-1894986606),a=e.ii(a,i,t,o,n[10],15,-1051523),o=e.ii(o,a,i,t,n[1],21,-2054922799),t=e.ii(t,o,a,i,n[8],6,1873313359),i=e.ii(i,t,o,a,n[15],10,-30611744),a=e.ii(a,i,t,o,n[6],15,-1560198380),o=e.ii(o,a,i,t,n[13],21,1309151649),t=e.ii(t,o,a,i,n[4],6,-145523070),i=e.ii(i,t,o,a,n[11],10,-1120210379),a=e.ii(a,i,t,o,n[2],15,718787259),o=e.ii(o,a,i,t,n[9],21,-343485551),r[0]=t+r[0]&4294967295,r[1]=o+r[1]&4294967295,r[2]=a+r[2]&4294967295,r[3]=i+r[3]&4294967295}},{key:"cmn",value:function(e,r,n,t,o,a){return((r=(r+e&4294967295)+(t+a&4294967295)&4294967295)<<o|r>>>32-o)+n&4294967295}},{key:"ff",value:function(r,n,t,o,a,i,f){return e.cmn(n&t|~n&o,r,n,a,i,f)}},{key:"gg",value:function(r,n,t,o,a,i,f){return e.cmn(n&o|t&~o,r,n,a,i,f)}},{key:"hh",value:function(r,n,t,o,a,i,f){return e.cmn(n^t^o,r,n,a,i,f)}},{key:"ii",value:function(r,n,t,o,a,i,f){return e.cmn(t^(n|~o),r,n,a,i,f)}},{key:"md51",value:function(r){for(var n=r.length,t=[1732584193,-271733879,-1732584194,271733878],o=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],a=0,i=64;i<=n;i+=64)e.md5cycle(t,e.md5blk(r.substring(i-64,i)));for(r=r.substring(i-64),i=0,a=r.length;i<a;i++)o[i>>2]|=r.charCodeAt(i)<<(i%4<<3);if(o[i>>2]|=128<<(i%4<<3),i>55)for(e.md5cycle(t,o),i=0;i<16;i++)o[i]=0;return o[14]=8*n,e.md5cycle(t,o),t}},{key:"md5blk",value:function(e){for(var r=[],n=0;n<64;n+=4)r[n>>2]=e.charCodeAt(n)+(e.charCodeAt(n+1)<<8)+(e.charCodeAt(n+2)<<16)+(e.charCodeAt(n+3)<<24);return r}},{key:"rhex",value:function(r){var n="";return n+=e.hexArray[r>>4&15]+e.hexArray[15&r],n+=e.hexArray[r>>12&15]+e.hexArray[r>>8&15],(n+=e.hexArray[r>>20&15]+e.hexArray[r>>16&15])+(e.hexArray[r>>28&15]+e.hexArray[r>>24&15])}},{key:"hex",value:function(r){for(var n=r.length,t=0;t<n;t++)r[t]=e.rhex(r[t]);return r.join("")}}]),e}();a.hexArray=["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"],r.default=a},function(e,r,n){e.exports=n(0)}])},305:(e,r,n)=>{const t=n(723),{default:o}=n(477),a={plugin:"plugins/",theme:"themes/",core:""},i=(e,r)=>Object.prototype.hasOwnProperty.call(e,r);e.exports={state:{baseUrl:null,locale:null,domainMap:{},domainPaths:{}},async downloadI18n(e,r,n){const f=this.state;if(!f||"string"!=typeof f.baseUrl)throw new Error("wp.jpI18nLoader.state is not set");if("en_US"===f.locale)return;if("undefined"==typeof fetch)throw new Error("Fetch API is not available.");const u=i(f.domainPaths,r)?f.domainPaths[r]:"";let c,h;const l=e.indexOf("?");l>=0?(c=o.hash(u+e.substring(0,l)),h=e.substring(l)):(c=o.hash(u+e),h="");const s=i(f.domainMap,r)?f.domainMap[r]:a[n]+r,g=await fetch(`${f.baseUrl}${s}-${f.locale}-${c}.json${h}`);if(!g.ok)throw new Error(`HTTP request failed: ${g.status} ${g.statusText}`);const d=await g.json(),p=i(d.locale_data,r)?d.locale_data[r]:d.locale_data.messages;p[""].domain=r,t.setLocaleData(p,r)}}},723:e=>{"use strict";e.exports=window.wp.i18n}},r={};var n=function n(t){var o=r[t];if(void 0!==o)return o.exports;var a=r[t]={exports:{}};return e[t].call(a.exports,a,a.exports,n),a.exports}(305);(window.wp=window.wp||{}).jpI18nLoader=n})();;
